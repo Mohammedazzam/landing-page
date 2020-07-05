@@ -17,7 +17,21 @@ Fonts: https://fonts.google.com/selection?selection.family=Barlow:400,700|Poppin
     <title>Tailwind - Movie Production Landing Page</title>
 </head>
 
-<body class="antialiased">
+<body class="antialiased bg-black">
+    <header class="header relative lg:overflow-hidden">
+        <div class="absolute inset-0 z-negative lg:opacity-100 opacity-50">
+            <video src="video.mp4" autoplay muted loop class="object-cover w-full h-full"></video>
+        </div>
+        <nav class="md:p-3 py-2 px-3 z-10">
+            <div class="container mx-auto md-flex black flex-wrap items-center justify-start">
+                <div class="flex-1 flex items-center justify-between">
+                    <a>
+                        <img src="logo.webp" alt="GSL Logo">
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
 
 </body>
 
